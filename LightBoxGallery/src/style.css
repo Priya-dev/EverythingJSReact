@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #5b21b6, #1e40af);
+  color: #fff;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust spacing between items */
+  margin: 2px;
+  max-width: calc(
+    100px * 3
+  ); /* Ensure the container is wide enough for 3 items */
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: 2px;
+}
+
+.item {
+  flex: 1;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 20rem;
+  padding: 2rem;
+  border: 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem 0.25rem hsl(0 0% 0% / 10%);
+  z-index: 9999; /* Set a high z-index value */
+  background-color: white; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smallImg {
+  width: 40px;
+  height: 40px;
+}
+
+.modal img {
+  max-width: 100%;
+  max-height: 100%;
+}
