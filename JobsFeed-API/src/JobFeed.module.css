@@ -1,0 +1,35 @@
+.container {
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.jobGrid {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to next line */
+  gap: 20px; /* Gap between grid items */
+}
+
+.item {
+  flex: 1 0 calc(33.33% - 20px); /* Three items per row on larger screens */
+  max-width: calc(33.33% - 20px); /* Three items per row on larger screens */
+  border: 1px solid #ccc; /* Border around job boxes */
+  padding: 10px;
+  word-wrap: break-word;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.span {
+  color: aqua;
+}
+
+.loadMoreBtn {
+  width: fit-content; /* Adjust width based on content */
+  height: 30px;
+  margin: 20px auto; /* Center the button horizontally with auto margin */
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  align-items: center; /* Center the button vertically */
+}
