@@ -1,0 +1,23 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.item {
+  padding: 10px;
+}
+
+.button {
+  width: fit-content;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,36 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.jobs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.job {
+  flex: 1 0 calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  border: 1px solid #ccc;
+  padding: 10px;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+.span {
+  color: aqua;
+}
+
+.button {
+  width: fit-content; /* Adjust width based on content */
+  margin: 20px auto; /* Center the button horizontally with auto margin */
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  align-items: center; /* Center the button vertically */
+}
