@@ -1,0 +1,38 @@
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bloc {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  border: solid grey 1px;
+}
+
+.bloc select {
+  padding: 10px 20px; /* Increase padding */
+  margin: -5px -30px -5px -5px; /* Adjust margin */
+  max-height: 200px; /* Set max-height to a larger value */
+  overflow: hidden; /* Hide overflow */
+}
+
+#myselect {
+  display: inline-block;
+  overflow: hidden;
+  border: solid black 1px;
+  color: red;
+}
+
+#myselect > select {
+  padding: 10px 20px; /* Increase padding */
+  margin: -5px -30px -5px -5px; /* Adjust margin */
+  max-height: 200px; /* Set max-height to a larger value */
+  overflow: hidden; /* Hide overflow */
+}
+
+#myselect > select > option:hover {
+  box-shadow: 0 0 10px 100px #4a8cf7 inset;
+  color: white;
+}

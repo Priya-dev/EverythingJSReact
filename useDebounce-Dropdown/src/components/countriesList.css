@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.selectContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  background-color: rgb(207, 207, 214);
+}
+
+button {
+  border: none;
+  height: 100%;
+  background-color: inherit;
+}
