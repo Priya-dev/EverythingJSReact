@@ -1,0 +1,63 @@
+.toast {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+.toastCont {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 5px;
+}
+
+.button {
+  width: fit-content;
+  height: fit-content;
+}
+
+.topRight {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  color: black;
+  background-color: grey;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+  max-width: 300px;
+  /* padding: 10px 20px; */
+  pointer-events: auto;
+}
+
+.topLeft {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: black;
+  background-color: grey;
+  box-shadow: 10px 5px 5px black;
+}
+
+.bottomRight {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  color: black;
+  background-color: grey;
+  box-shadow: 10px 5px 5px black;
+}
+
+.bottomLeft {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  color: black;
+  background-color: grey;
+  box-shadow: 10px 5px 5px black;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 300px;
+  border: 2px solid black;
+  margin-left: 100px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  width: 80%;
+}
+
+button {
+  width: fit-content;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 200px;
+}
+
+.toast-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end; /* Adjust as needed */
+  align-items: flex-start; /* Adjust as needed */
+  pointer-events: none;
+  padding: 20px;
+  z-index: 1000; /* Ensure toast is above other content */
+}
