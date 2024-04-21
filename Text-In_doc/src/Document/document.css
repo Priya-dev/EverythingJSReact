@@ -1,0 +1,42 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.textArea {
+  width: fit-content;
+  margin: auto;
+}
+
+.document {
+  border: 2px solid black;
+  padding: 2px 4px;
+  border-radius: 2px;
+  max-width: fit-content;
+  max-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 0; /* Remove any top margin */
+}
+
+.document p {
+  margin: 0; /* Remove any margin for paragraphs */
+}
+
+@keyframes fadein {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: blue;
+  }
+}
+
+.document p.fadein {
+  animation: fadein 0.5s ease-in-out;
+}
